@@ -1,0 +1,53 @@
+/* Navbar.css */
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #7809c2;;
+  color: #fff;
+  padding-inline: 45px;
+  border-bottom: 1px solid purple;
+  height: 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Poetsen One", sans-serif;
+}
+.navbar-brand:hover {
+  border: 1px solid wheat;  color: aqua;
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-link:hover {
+  border: 1px solid wheat;
+  color: aqua;
+  
+}
